@@ -1,0 +1,337 @@
+﻿body {
+    margin: 30px;
+    height: 100%;
+    width: 100%;
+    background-color: #CD5C5C;
+    background-size: cover; /* Resize the background image to cover the entire container */
+    /* background-image: url(\images/GIUSunset.jpeg);
+    background-repeat: no-repeat; */
+    text-align: left;
+}
+
+p {
+    text-align: left;
+    font-size: 30px;
+    clear: right;
+    color:white;
+}
+
+
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    font-size: large;
+    font-family: 'Berlin Sans FB';
+    color: firebrick;
+}
+
+.dropdown-menu-container {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  overflow: hidden;
+}
+
+label{
+    color:white;
+}
+
+
+.ContentPlaceHolder1{
+    margin:30px;
+}
+
+div {
+    margin: 30px;
+}
+
+head {
+    background-color: #F0E68C;
+    color:black;
+}
+
+
+.navbar .dropdown-menu .dropdown-item:hover {
+    background-color: red;
+}
+
+nav .navbar-brand {
+    font-size: 400px;
+    font-weight: bold;
+}
+
+
+.logo {
+    vertical-align: top;
+    margin-left: auto;
+    float: left;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+h1 {
+    font-family: watermelon ;
+}
+
+h2 {
+    font-size:30px;
+    font-weight:900;
+    color:blue;
+    text-decoration:underline;
+    text-align: center
+}
+
+h5
+{
+    margin-left:100px;
+    color:white
+}
+select {
+    min-width: 150px;
+}
+
+
+nav-item {
+    color: #000000;
+}
+
+.leftdiv {
+    float: left;
+    background-color: #87CEEB
+}
+
+.middlediv {
+    float: left;
+    background-color: #87CEFA
+}
+
+.rightdiv {
+    float: left;
+    background-color: #FA8072
+}
+
+div {
+    color: black;
+}
+
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px 7px 2px 4px;
+    width: 100%;
+    max-width: 95%;
+    margin-bottom: 1rem;
+}
+th {
+    padding: 4px 7px 2px 4px;
+    height: 70px;
+    text-align: center;
+}
+td {
+    text-align: center;
+    padding: 4px 7px 2px 4px;
+}
+table, td, th {
+    text-align:center;
+    border:hidden;
+}
+
+
+    .table th,
+    .table td {
+        padding: 0.75rem;
+        vertical-align: top;
+        border-top: 1px solid #eceeef;
+    }
+
+    .table thead th {
+        vertical-align: bottom;
+        border-bottom: 2px solid #eceeef;
+    }
+
+    .table tbody + tbody {
+        border-top: 2px solid #eceeef;
+    }
+
+    .table .table {
+        background-color: #fff;
+    }
+
+.table-sm th,
+.table-sm td {
+    padding: 0.3rem;
+}
+
+.table-bordered {
+    border: 1px solid #eceeef;
+}
+
+    .table-bordered th,
+    .table-bordered td {
+        border: 1px solid #eceeef;
+    }
+
+    .table-bordered thead th,
+    .table-bordered thead td {
+        border-bottom-width: 2px;
+    }
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+.table-active,
+.table-active > th,
+.table-active > td {
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+.table-hover .table-active:hover {
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+    .table-hover .table-active:hover > td,
+    .table-hover .table-active:hover > th {
+        background-color: rgba(0, 0, 0, 0.075);
+    }
+
+.table-success,
+.table-success > th,
+.table-success > td {
+    background-color: #dff0d8;
+}
+
+.table-hover .table-success:hover {
+    background-color: #d0e9c6;
+}
+
+    .table-hover .table-success:hover > td,
+    .table-hover .table-success:hover > th {
+        background-color: #d0e9c6;
+    }
+
+.table-info,
+.table-info > th,
+.table-info > td {
+    background-color: #d9edf7;
+}
+
+.table-hover .table-info:hover {
+    background-color: #c4e3f3;
+}
+
+    .table-hover .table-info:hover > td,
+    .table-hover .table-info:hover > th {
+        background-color: #c4e3f3;
+    }
+
+.table-warning,
+.table-warning > th,
+.table-warning > td {
+    background-color: #fcf8e3;
+}
+
+.table-hover .table-warning:hover {
+    background-color: #faf2cc;
+}
+
+    .table-hover .table-warning:hover > td,
+    .table-hover .table-warning:hover > th {
+        background-color: #faf2cc;
+    }
+
+.table-danger,
+.table-danger > th,
+.table-danger > td {
+    background-color: #f2dede;
+}
+
+.table-hover .table-danger:hover {
+    background-color: #ebcccc;
+}
+
+    .table-hover .table-danger:hover > td,
+    .table-hover .table-danger:hover > th {
+        background-color: #ebcccc;
+    }
+
+.thead-inverse th {
+    color: #fff;
+    background-color: #292b2c;
+}
+
+.thead-default th {
+    color: #464a4c;
+    background-color: #eceeef;
+}
+
+.table-inverse {
+    color: #fff;
+    background-color: #292b2c;
+}
+
+    .table-inverse th,
+    .table-inverse td,
+    .table-inverse thead th {
+        border-color: #fff;
+    }
+
+    .table-inverse.table-bordered {
+        border: 0;
+    }
+
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+    .table-responsive.table-bordered {
+        border: 0;
+    }
+
+nav .navbar-brand {
+    font-size: xx-large;
+}
+
+    /* Colors for brand */
+    nav .navbar-brand .blue {
+        color: #537fbe;
+    }
+
+table, th, td {
+    border: 1px solid black;
+}
+
+nav .navbar-brand .red {
+    color: #ea433b;
+}
+
+nav .navbar-brand .yellow {
+    color: #f5b82e;
+}
+
+
+nav .navbar
+{
+    width:100%;
+}
+.container {
+  width: 100%;
+}
+
+nav .navbar-brand .green {
+    color: #2e944b;
+}
